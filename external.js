@@ -6,7 +6,7 @@ var number1 = 3,
   number3 = 0xff;
 
 let firstName = "Ahmed",
-  middleName = "Kamel",
+  middleName = 'Kamel',
   lastName = `Elwazeer`;
 
 let isTrue = true;
