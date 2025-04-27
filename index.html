@@ -6,7 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lab 1</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+        console.log(`The first number is ${number1}`);
+        // Uncaught ReferenceError: number1 is not defined at (index):10:44
+    </script>
     <script src="external.js"></script>
+    <script>
+        console.log(`The first number is ${number1}`);
+        // The first number is 3
+    </script>
 </head>
 
 <body>
